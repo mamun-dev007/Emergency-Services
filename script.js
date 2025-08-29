@@ -63,7 +63,7 @@ callButtons.forEach((callbtn) => {
     const newCard = document.createElement("div");
 
 let now = new Date();
-let localTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit',second: '2-digit' });
+let localTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit',second: '2-digit', hour12:true});
 
 
     newCard.className = "bg-gray-200 py-1 my-3 px-5 rounded-lg";
